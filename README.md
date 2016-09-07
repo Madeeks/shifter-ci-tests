@@ -28,4 +28,4 @@ Build shifter and run the CI tests:
 Tested on Ubuntu 16.04 with Vagrant 1.8.1 and Virtualbox 5.0.18.
 
 ## Troubleshooting
-- The CI tests are not independent (sigh!), that is the results are not guaranteed to be consistent when running subsets of the tests in different orders. So far I experienced sporadic failures of the test imagegwapi_test.py:GWTestCase.test_autoexpire. The test passed when the entire test suite was executed though.
+- The CI tests are not independent (sigh!), that is the results are not guaranteed to be consistent when running subsets of the tests in different orders. So far I experienced more or less sporadic failures of the test imagegwapi_test.py:GWTestCase.test_autoexpire. The test passed when the entire test suite was executed though.
