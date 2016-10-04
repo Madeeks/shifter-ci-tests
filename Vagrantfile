@@ -7,6 +7,7 @@ sudo apt-get update -qq
 
 #note: running the following apt-get commands as one liner used to generate more error messages such as
 #'Failed to fetch http://.../blahblah.deb  403  Forbidden [IP: 91.189.88.152 80]'
+sudo apt-get install -qq libcpputest-dev
 sudo apt-get install -qq libjson-c2 
 sudo apt-get install -qq libjson-c-dev 
 sudo apt-get install -qq libmunge2
@@ -26,6 +27,7 @@ sudo apt-get install -qq redis-server
 sudo apt-get install -qq python-dev
 sudo apt-get install -qq python-pip
 sudo apt-get install -qq python-nose
+sudo apt-get install -qq libcap-dev
 
 pip install -r /shared-folders/shifter-repository/imagegw/requirements.txt
 pip install coverage
